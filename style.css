@@ -110,9 +110,27 @@ body {
 }
 
 .main-container {
-    padding-top: 56px;
+    display: flex;
+    flex-direction:row;
+    padding-top: 80px;
     color: white;
-    width: 80%;
+    width: 92%;
     margin-left: auto;
     margin-right: auto;
+    gap: 5%;
+}
+
+.left-container {
+    height: 100%;
+    width: 67%;
+}
+
+.right-container {
+    width: 33%;
+    border: solid red 1px;
+}
+
+.suggestion {
+    display: flex;
+    width: 100%;
 }

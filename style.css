@@ -25,11 +25,23 @@
 .h-left {
     display: flex;
     padding: 15px 0;
+    width: 25%;
+    /* flex-basis: 1; */
 }
 
 .h-center {
     display: flex;
     align-items: center;
+    width: 40%;
+    /* flex-basis: 2; */
+}
+
+.h-right {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    /* flex-basis: 1; */
+
 }
 
 #search-box {
@@ -64,5 +76,16 @@
     background-color: #323232;
     fill: white;
     padding-left: 18px;
+}
+
+#record-button {
+    background-color: #181818;
+    border: none;
+    height: 40px;
+    width: 40px;    
+    border-radius: 50%;
+    margin-left: 1ch;
+    fill: white;
+    padding: 0;
 }
 

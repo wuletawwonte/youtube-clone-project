@@ -127,10 +127,32 @@ body {
 
 .right-container {
     width: 33%;
-    border: solid red 1px;
 }
 
 .suggestion {
     display: flex;
     width: 100%;
+    gap: 8px;
+    font-family: "Roboto","Arial",sans-serif;
+}
+
+.video-thumbnail {
+    flex-basis: 1;
+    width: 43%;
+}
+
+.suggestion-detail {
+    padding-top: 3px;
+    flex-basis: 1;
+    width: 57%;
+    color: white;
+} 
+
+.suggestion-detail span {
+    font-weight: 400;
+}
+
+.suggestion-detail p {
+    color: #a8a8a8;
+    font-size: 15px;
 }

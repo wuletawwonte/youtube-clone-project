@@ -32,16 +32,15 @@
 .h-center {
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 45%;
     /* flex-basis: 2; */
 }
 
 .h-right {
     display: flex;
     align-items: center;
-    width: 35%;
-    /* flex-basis: 1; */
-
+    width: 30%;
+    justify-content: right;
 }
 
 #search-box {
@@ -87,5 +86,20 @@
     margin-left: 1ch;
     fill: white;
     padding: 0;
+}
+
+.right-buttons {
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    fill: white;
+    outline: none;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 35px;
 }
 

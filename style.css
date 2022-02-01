@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: #202020;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.yt-icon {
+    height: 20px;
+    width: 90px;
+}
+
+#youtube-paths {
+    fill: white;
+}
+
+#hamburger-menu {
+    fill: white;
+}
+
+.h-left {
+    display: flex;
+    padding: 15px 0;
+}

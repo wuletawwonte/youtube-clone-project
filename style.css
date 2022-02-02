@@ -156,3 +156,36 @@ body {
     color: #a8a8a8;
     font-size: 15px;
 }
+
+.filter-buttons {
+    margin-bottom: 10px;
+}
+
+.filter-buttons button {
+    cursor: pointer;
+    border-radius: 16px;
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid #303030;
+    height: 32px;
+    min-width: 12px;
+    background-color: #303030;
+    color: white;
+}
+
+.active-filter-button {
+    background-color: white;
+}
+
+.main-video-title {
+    line-height: 2.6rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-family: "Roboto","Arial",sans-serif;
+}
+
+.view-and-date {
+    color: #aaa;
+    font-size: 15px;
+    font-family: "Roboto","Arial",sans-serif;
+}
